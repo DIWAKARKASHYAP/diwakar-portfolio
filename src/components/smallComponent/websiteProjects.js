@@ -11,12 +11,12 @@ const websiteProjects = () => {
             <div className=" bg-gradient-to-r from-pink-300 via-green-300 to-yellow-200 max-w-7xl h-1 rounded-xl m-auto mt-16 mb-20"></div>
 
             <div className="  flex px-5 lg:p-0 ">
-                <h1 class="mb-4 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">
+                <h1 className="mb-4 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">
                         Some Projects
                     </span>
                     {" In "}
-                    <span class="   underline underline-offset-3 decoration-8 decoration-blue-600 dark:decoration-blue-600">
+                    <span className="   underline underline-offset-3 decoration-8 decoration-blue-600 dark:decoration-blue-600">
                         Web Development
                     </span>
                 </h1>
@@ -54,16 +54,20 @@ const websiteProjects = () => {
                                     when you initiate a conversation. However,
                                     it's import
                                 </p>
-                                <div class="flex justify-between mt-4 space-x-3 md:mt-6">
+                                <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
                                         href="#"
-                                        class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
                                     <a
                                         href="#"
-                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                                         Live
@@ -106,10 +110,10 @@ const websiteProjects = () => {
                                     when you initiate a conversation. However,
                                     it's important to keep your chat address
                                 </p>
-                                <div class="flex justify-between mt-4 space-x-3 md:mt-6">
+                                <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
                                         href="#"
-                                        class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
@@ -158,16 +162,16 @@ const websiteProjects = () => {
                                     provide a useful resource for anyone looking
                                     to stay up-to-date with the latest news.
                                 </p>
-                                <div class="flex justify-between mt-4 space-x-3 md:mt-6">
+                                <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
                                         href="#"
-                                        class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
                                     <a
                                         href="#"
-                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                                         Live
@@ -209,10 +213,10 @@ const websiteProjects = () => {
                                     provide a useful resource for anyone looking
                                     to stay up-to-date with the latest news.
                                 </p>
-                                <div class="flex justify-between mt-4 space-x-3 md:mt-6">
+                                <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
                                         href="#"
-                                        class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>

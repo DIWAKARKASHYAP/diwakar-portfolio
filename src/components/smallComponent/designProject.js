@@ -7,23 +7,23 @@ const DesignProject = () => {
             <div className=" bg-gradient-to-r from-pink-300 via-green-300 to-yellow-200 max-w-7xl h-1 rounded-xl m-auto mt-16 mb-20"></div>
 
             <div className=" px-5 flex ">
-                <h1 class="mb-4 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">
+                <h1 className="mb-4 m-auto text-3xl font-extrabold   md:text-5xl lg:text-6xl">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-600 from-sky-400">
                         Some Projects
                     </span>
                     {" In "}
-                    <span class="   underline underline-offset-3 decoration-8 decoration-blue-600 dark:decoration-blue-600">
+                    <span className="   underline underline-offset-3 decoration-8 decoration-blue-600 dark:decoration-blue-600">
                         Web Development
                     </span>
                 </h1>
             </div>
 
-            <div class="grid  grid-cols-2 md:grid-cols-4 gap-2 lg:gap-4 max-w-7xl m-auto mt-12 p-3 ">
-                <div class="grid gap-2 lg:gap-4">
+            <div className="grid  grid-cols-2 md:grid-cols-4 gap-2 lg:gap-4 max-w-7xl m-auto mt-12 p-3 ">
+                <div className="grid gap-2 lg:gap-4">
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 "
+                            className="h-auto max-w-full border border-1 "
                             src={Figma}
                             alt=""
                         />
@@ -32,7 +32,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB5}
                             alt=""
                         />
@@ -41,17 +41,17 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB2}
                             alt=""
                         />
                     </div>
                 </div>
-                <div class="grid gap-2 lg:gap-4">
+                <div className="grid gap-2 lg:gap-4">
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB8}
                             alt=""
                         />
@@ -59,7 +59,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={bDesign}
                             alt=""
                         />
@@ -68,7 +68,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB3}
                             alt=""
                         />
@@ -76,7 +76,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB6}
                             alt=""
                         />
@@ -85,17 +85,17 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={bBanner}
                             alt=""
                         />
                     </div>
                 </div>
-                <div class="grid gap-2 lg:gap-4">
+                <div className="grid gap-2 lg:gap-4">
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class=" border border-1 h-auto max-w-full border border-1 rounded-lg"
+                            className=" border border-1 h-auto max-w-full  border-1 rounded-lg"
                             src={rjB1}
                             alt=""
                         />
@@ -103,7 +103,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={hostinger}
                             alt=""
                         />
@@ -111,7 +111,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjLogo}
                             alt=""
                         />
@@ -119,7 +119,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB4}
                             alt=""
                         />
@@ -128,17 +128,17 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB10}
                             alt=""
                         />
                     </div>
                 </div>
-                <div class="grid gap-2 lg:gap-4">
+                <div className="grid gap-2 lg:gap-4">
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={BLogo}
                             alt=""
                         />
@@ -147,7 +147,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB7}
                             alt=""
                         />
@@ -155,7 +155,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={sBlockElements}
                             alt=""
                         />
@@ -163,7 +163,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB9}
                             alt=""
                         />
@@ -171,7 +171,7 @@ const DesignProject = () => {
                     <div>
                         <img
                             data-aos="zoom-in"
-                            class="h-auto max-w-full border border-1 rounded-lg"
+                            className="h-auto max-w-full border border-1 rounded-lg"
                             src={rjB11}
                             alt=""
                         />
