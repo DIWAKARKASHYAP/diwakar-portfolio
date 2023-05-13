@@ -222,7 +222,6 @@ body {
   padding: 0.625rem 1.5rem 0.625rem 0.625rem;
   background-color: var(--gray-700);
   border-radius: 9999px;
-  /* border: 20px , solid , pink ; */
 }
 .marquee-tag-wrapper:hover {
   background-color: var(--gray-800);
