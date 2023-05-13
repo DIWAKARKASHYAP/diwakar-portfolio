@@ -237,7 +237,6 @@ body {
     padding: 0.25rem 0.65rem 0.25rem 0.25rem;
     background-color: var(--gray-700);
     border-radius: 9999px;
-    border: 20px , solid , pink ;
   }
 }
 /* .marquee-tag-container {
