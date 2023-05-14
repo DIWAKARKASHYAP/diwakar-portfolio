@@ -3,7 +3,7 @@ import banner from "./images/5927911.gif";
 
 const Section = () => {
     return (
-        <div  className=" lg:flex flex-row-reverse   items-center p-10 ">
+        <div  className=" lg:flex flex-row-reverse max-w-full   items-center p-10 ">
         <div className=" md:w-4/5 m-auto lg:mr-12  bg-pink-600">
                 <img
                     id="bannerImg"
@@ -12,7 +12,7 @@ const Section = () => {
                 />
             </div>
             
-            <div className=" costomFont  max-w-2xl m-auto  relative   lg:pb-10  text-gray-400">
+            <div className="   max-w-2xl m-auto  relative   lg:pb-10  text-gray-400">
                 <div
                     id="text"
                     className="  m-4 pt-10  sm:p-20 lg:p-28 text-xl backdrop-blur"

@@ -20,6 +20,13 @@ const BlockchainProjects = () => {
           
 
             <div className=" lg:flex flex-wrap justify-between  max-w-5xl m-auto p-5 mt-5 lg:mt-0 lg:p-16 ">
+
+            
+
+<div data-aos="zoom-out" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
+
+
+
                 <div className=" h-fit w-fit m-auto lg:m-0 lg:mb-12  relative   rounded-md  overflow-hidden bg-gray-900 mb-12">
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400 via-green-400 to-gray-900"></div>
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-900"></div>
@@ -60,7 +67,10 @@ const BlockchainProjects = () => {
                     </div>
                 </div>
 
+</div>
 
+
+<div data-aos="zoom-out" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
 
                 <div className=" h-fit w-fit m-auto lg:m-0 lg:mb-12  relative   rounded-md  overflow-hidden bg-gray-900 mb-12">
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400 via-green-400 to-gray-900"></div>
@@ -103,12 +113,13 @@ const BlockchainProjects = () => {
                 </div>
 
 
+</div>
 
 
 
 
 
-
+<div data-aos="zoom-out" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
 
                 <div className=" h-fit w-fit m-auto lg:m-0 lg:mb-12  relative   rounded-md  overflow-hidden bg-gray-900 mb-12">
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400 via-green-400 to-gray-900"></div>
@@ -148,9 +159,10 @@ const BlockchainProjects = () => {
                     </div>
                     </div>
                 </div>
+</div>
 
 
-
+<div data-aos="zoom-out" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
 
                 <div className=" h-fit w-fit m-auto lg:m-0 lg:mb-12  relative   rounded-md  overflow-hidden bg-gray-900 mb-12">
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400 via-green-400 to-gray-900"></div>
@@ -191,7 +203,7 @@ const BlockchainProjects = () => {
                     </div>
                 </div>
 
-
+</div>
                
             </div>
         </div>

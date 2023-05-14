@@ -13,7 +13,7 @@ const DesignProject = () => {
                     </span>
                     {" In "}
                     <span className="   underline underline-offset-3 decoration-8 decoration-blue-600 dark:decoration-blue-600">
-                        Web Development
+                        Graphic Design
                     </span>
                 </h1>
             </div>

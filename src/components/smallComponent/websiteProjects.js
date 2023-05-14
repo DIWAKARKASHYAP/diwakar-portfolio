@@ -25,7 +25,7 @@ const websiteProjects = () => {
             <div className=" lg:flex flex-wrap justify-between  max-w-5xl m-auto mt-5 p-4 lg-p-16  ">
                 <div
                     data-aos="flip-left"
-                    data-aos-anchor-placement="center-bottom"
+                    data-aos-anchor-placement="bottom-bottom"
                     className=" h-fit w-fit m-auto lg:m-0 lg:mb-12 relative   rounded-md  overflow-hidden bg-gray-800 mb-12"
                 >
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400 via-green-400 to-gray-800"></div>
@@ -80,11 +80,11 @@ const websiteProjects = () => {
 
                 <div
                     data-aos="flip-left"
-                    data-aos-anchor-placement="center-bottom"
+                    data-aos-anchor-placement="bottom-bottom"
                     className=" h-fit w-fit m-auto lg:m-0 lg:mb-12 relative   rounded-md  overflow-hidden bg-gray-800 mb-12"
                 >
-                    <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-yellow-400 via-yellow-400 to-gray-800"></div>
-                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-sky-400 via-sky-400 to-gray-800"></div>
+                    <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400 via-green-400 to-gray-800"></div>
+                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
 
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
                         <div className=" bg-black rounded-md">
@@ -132,12 +132,12 @@ const websiteProjects = () => {
 
                 <div
                     data-aos="flip-left"
-                    data-aos-anchor-placement="center-bottom"
+                    data-aos-anchor-placement="bottom-bottom"
                     className=" h-fit w-fit m-auto lg:m-0 lg:mb-12 relative   rounded-md  overflow-hidden bg-gray-800 mb-12"
                 > 
                     {" "}
-                    <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-pink-400 via-pink-400 to-gray-800"></div>
-                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-sky-400 via-sky-400 to-gray-800"></div>
+                    <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400  via-green-400 to-gray-800"></div>
+                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
                         <div className=" bg-black rounded-md">
                             {" "}
@@ -184,12 +184,12 @@ const websiteProjects = () => {
 
                 <div
                     data-aos="flip-left"
-                    data-aos-anchor-placement="center-bottom"
+                    data-aos-anchor-placement="bottom-bottom"
                     className=" h-fit w-fit m-auto lg:m-0 lg:mb-12 relative   rounded-md  overflow-hidden bg-gray-800 mb-12"
                 >
                     {" "}
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400  via-green-400 to-gray-800"></div>
-                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-yellow-400 via-yellow-400 to-gray-800"></div>
+                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
                         <div className=" bg-black rounded-md">
                             <a href="/blogs/role-of-software-engineering-in-blockchain-development">
