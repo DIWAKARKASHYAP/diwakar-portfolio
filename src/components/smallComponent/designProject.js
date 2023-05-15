@@ -18,7 +18,7 @@ const DesignProject = () => {
                 </h1>
             </div>
 
-            <div className="grid  grid-cols-2 md:grid-cols-4 gap-2 lg:gap-4 max-w-7xl m-auto mt-12 p-3 ">
+            <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 lg:gap-4 max-w-7xl m-auto mt-12 p-3 ">
                 <div className="grid gap-2 lg:gap-4">
                     <div>
                         <img

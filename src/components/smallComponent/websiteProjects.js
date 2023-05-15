@@ -22,7 +22,7 @@ const websiteProjects = () => {
                 </h1>
             </div>
 
-            <div className=" lg:flex flex-wrap justify-between  max-w-5xl m-auto mt-5 p-4 lg-p-16  ">
+            <div className=" lg:flex flex-wrap justify-around  max-w-5xl m-auto mt-5 p-4 lg-p-16  ">
                 <div
                     data-aos="flip-left"
                     data-aos-anchor-placement="bottom-bottom"
@@ -56,18 +56,18 @@ const websiteProjects = () => {
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="#"
+                                        href="https://github.com/DIWAKARKASHYAP/immortal-chat"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://immortal-chat.vercel.app/"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                                         Live
@@ -99,27 +99,25 @@ const websiteProjects = () => {
                             <div className="p-5">
                                 <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                     <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
-                                        Dnews
+                                        Blockchain Remote Job
                                     </h5>
                                 </a>
                                 <p className="mb-3 font-normal text-gray-400">
-                                    Our website is designed to provide a secure
-                                    and anonymous chat platform for two
-                                    individuals. You can access your chat using
-                                    a unique chat address, which is generated
-                                    when you initiate a conversation. However,
-                                    it's important to keep your chat address
-                                </p>
+                                Our blockchain remote job platform is built on Next.js, Tailwind CSS, MUI, and Flowbit CSS. Firebase is utilized as the reliable database, ensuring seamless functionality and data management.                   </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="#"
-                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        href="https://github.com/DIWAKARKASHYAP/job-portal"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white rounded-lg focus:right-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
                                     <a
-                                        href="#"
-                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                        href="https://www.blockchain-remote-job.com/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:right-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                                         Live
@@ -164,14 +162,18 @@ const websiteProjects = () => {
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="#"
-                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        href="https://github.com/DIWAKARKASHYAP/dnews"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
                                     <a
-                                        href="#"
-                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                        href="https://dnews-portfolio.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                                         Live
@@ -202,27 +204,26 @@ const websiteProjects = () => {
                             <div className="p-5">
                                 <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                     <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
-                                        Dnews
+                                        this portfolio
                                     </h5>
                                 </a>
                                 <p className="mb-3 font-normal text-gray-400">
-                                    I created this website using Next.js and
-                                    Tailwind CSS, and I sourced all the news
-                                    data from newsapi.org API . As the sole
-                                    developer of this website, I aimed to
-                                    provide a useful resource for anyone looking
-                                    to stay up-to-date with the latest news.
+                                This portfolio website is developed using React.js, incorporating the AOS library for smooth animations. It is styled with Tailwind CSS and MUI, resulting in a visually appealing and interactive experience for showcasing creative works and skills.
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="#"
-                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        href="https://github.com/DIWAKARKASHYAP/diwakar-portfolio"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
                                     >
                                         View Code
                                     </a>
                                     <a
-                                        href="#"
-                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                        href="https://diwakar-portfolio.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm font-medium text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
                                         Live

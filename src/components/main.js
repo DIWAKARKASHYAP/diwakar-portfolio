@@ -298,7 +298,7 @@ const Main = () => {
                                 data-aos="fade-right"
                                 className="   sm:w-1/2 sm:m-10 m-10 mt-20 p-4 flex flex-col  items-center  border-solid border-pink-500 border-2 rounded-lg relative  bg-gradient-to-br from-white/5 via-pink-100/5 to-pink-300/30"
                             >
-                                <div className=" sun bg-pink-600 opacity-90 h-11 w-11 rounded-full border-4 border-pink-600 absolute left-0"></div>
+                                <div className=" sun bg-pink-600 opacity-95 h-11 w-11 rounded-full border-4 border-pink-600 absolute left-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
                                     In frontend
                                 </div>
@@ -323,7 +323,7 @@ const Main = () => {
                                 data-aos="fade-left"
                                 className=" sm:w-1/2 sm:m-10 m-10 mt-20 p-4 flex flex-col items-center  border-solid border-green-500 border-2 rounded-lg relative  bg-gradient-to-bl from-emerald-50/10 via-emerald-100/5 to-emerald-300/30"
                             >
-                                <div className=" sun2 bg-emerald-500 opacity-90 h-11 w-11 rounded-full absolute right-0"></div>
+                                <div className=" sun2 bg-emerald-500 opacity-95 h-11 w-11 rounded-full absolute right-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
                                     In Backend
                                 </div>
@@ -345,7 +345,7 @@ const Main = () => {
                                 data-aos="fade-left"
                                 className=" sm:w-1/2 sm:m-10 m-10 mt-20 p-4 flex flex-col items-center  border-solid border-sky-500 border-2 rounded-lg relative  bg-gradient-to-br from-white/5 via-sky-100/5 to-sky-300/30"
                             >
-                                <div className=" sun4 bg-sky-400 opacity-90 h-11 w-11 rounded-full  absolute left-0"></div>
+                                <div className=" sun4 bg-sky-400 opacity-95 h-11 w-11 rounded-full  absolute left-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
                                     In blockchain
                                 </div>
@@ -365,7 +365,7 @@ const Main = () => {
                                 data-aos="fade-right"
                                 className=" sm:w-1/2 sm:m-10 m-10 mt-20 p-4 flex flex-col items-center  border-solid border-yellow-500 border-2 rounded-lg relative  bg-gradient-to-bl from-white/5 via-yellow-100/5 to-yellow-300/30"
                             >
-                                <div className=" sun3 bg-yellow-400 opacity-90 h-11 w-11 rounded-full  absolute right-0"></div>
+                                <div className=" sun3 bg-yellow-400 opacity-95 h-11 w-11 rounded-full  absolute right-0 top-0"></div>
                                 <div className=" m-5 mb-0 text-3xl font-semibold capitalize text-gray-300">
                                     some Knowledge
                                 </div>
