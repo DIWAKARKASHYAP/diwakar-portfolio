@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import dnewsImg from "../images/dnewsImage.png";
 import immortalImg from "../images/immortalImg.png";
 import remoteJobImg from "../images/remoteJobImg.png";
 import portfolio from "../images/portfolio.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const websiteProjects = () => {
+const WebsiteProjects = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
     return (
         <div>
             <div className=" bg-gradient-to-r from-pink-300 via-green-300 to-yellow-200 max-w-7xl h-1 rounded-xl m-auto mt-16 mb-20"></div>
@@ -22,7 +27,7 @@ const websiteProjects = () => {
                 </h1>
             </div>
 
-            <div className=" lg:flex flex-wrap justify-around  max-w-5xl m-auto mt-5 p-4 lg-p-16  ">
+            <div className=" flex flex-wrap justify-around  max-w-5xl m-auto mt-5 p-4 lg-p-16  ">
                 <div
                     data-aos="flip-left"
                     data-aos-anchor-placement="bottom-bottom"
@@ -32,20 +37,17 @@ const websiteProjects = () => {
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
 
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-black rounded-md">
-                            <a href="/blogs/role-of-software-engineering-in-blockchain-development">
+                        <div className=" bg-slate-800 rounded-md">
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={immortalImg}
                                     alt="block-remote-job"
                                 />
-                            </a>
+                            
                             <div className="p-5">
-                                <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                     <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
                                         Immortal Chat
                                     </h5>
-                                </a>
                                 <p className="mb-3 font-normal text-gray-400">
                                     Our website is designed to provide a secure
                                     and anonymous chat platform for two
@@ -87,21 +89,18 @@ const websiteProjects = () => {
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
 
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-black rounded-md">
+                        <div className=" bg-slate-800 rounded-md">
                             {" "}
-                            <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={remoteJobImg}
                                     alt="block-remote-job"
                                 />
-                            </a>
+                            
                             <div className="p-5">
-                                <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                     <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
                                         Blockchain Remote Job
                                     </h5>
-                                </a>
                                 <p className="mb-3 font-normal text-gray-400">
                                 Our blockchain remote job platform is built on Next.js, Tailwind CSS, MUI, and Flowbit CSS. Firebase is utilized as the reliable database, ensuring seamless functionality and data management.                   </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
@@ -137,21 +136,17 @@ const websiteProjects = () => {
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400  via-green-400 to-gray-800"></div>
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-black rounded-md">
+                        <div className=" bg-slate-800 rounded-md">
                             {" "}
-                            <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={dnewsImg}
                                     alt="block-remote-job"
                                 />
-                            </a>
                             <div className="p-5">
-                                <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                     <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
                                         Dnews
                                     </h5>
-                                </a>
                                 <p className="mb-3 font-normal text-gray-400">
                                     I created this website using Next.js and
                                     Tailwind CSS, and I sourced all the news
@@ -193,20 +188,16 @@ const websiteProjects = () => {
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400  via-green-400 to-gray-800"></div>
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-black rounded-md">
-                            <a href="/blogs/role-of-software-engineering-in-blockchain-development">
+                        <div className=" bg-slate-800 rounded-md">
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={portfolio}
                                     alt="block-remote-job"
                                 />
-                            </a>
                             <div className="p-5">
-                                <a href="/blogs/role-of-software-engineering-in-blockchain-development">
                                     <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
                                         this portfolio
                                     </h5>
-                                </a>
                                 <p className="mb-3 font-normal text-gray-400">
                                 This portfolio website is developed using React.js, incorporating the AOS library for smooth animations. It is styled with Tailwind CSS and MUI, resulting in a visually appealing and interactive experience for showcasing creative works and skills.
                                 </p>
@@ -238,4 +229,4 @@ const websiteProjects = () => {
     );
 };
 
-export default websiteProjects;
+export default WebsiteProjects;

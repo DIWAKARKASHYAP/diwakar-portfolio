@@ -42,7 +42,7 @@ const Main = () => {
                     </h2>
                     <div className=" max-w-full  m-auto overflow-hidden    ">
                         {/* marquee 👇 */}
-                        <div className=" flex gap-7 md:gap-12   bg-gradient-to-t from-black via-gray-800 to-black text-pink-500 ">
+                        <div className=" flex gap-7 md:gap-12   bg-gradient-to-t from-slate-900 via-slate-700 to-slate-900 text-pink-500 ">
                             <div className="marquee-group flex shrink-0 items-center justify-around gap-7 md:gap-12 min-w-full  ">
                                 {" "}
                                 <div className="marquee-tag-wrapper ">

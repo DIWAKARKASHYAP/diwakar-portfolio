@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { rjB1, rjB2, rjB3, rjB4, rjB5, rjB6, rjB7, rjB8, rjB9, rjB10, rjB11, bBanner, bDesign, BLogo, hostinger, rjLogo, sBlockElements, Figma } from "../images/graphics/designPath";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const DesignProject = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
     return (
         <div>
             <div className=" bg-gradient-to-r from-pink-300 via-green-300 to-yellow-200 max-w-7xl h-1 rounded-xl m-auto mt-16 mb-20"></div>

@@ -7,8 +7,8 @@ import ContactUs from "./components/contactUs";
 
 function App() {
     return (
-        <div className=" bg-black text-white ">
-            <div className=" bg-black m-auto max-w-screen-xl">
+        <div className=" bg-slate-900 text-white ">
+            <div className=" bg-slate-900 m-auto max-w-screen-xl">
                 <Nav />
                 <Section />
                 <Main />
