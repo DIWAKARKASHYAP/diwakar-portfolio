@@ -61,7 +61,7 @@ const ContactUs = () => {
                                 <ul className="text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <a
-                                            href="https://github.com/themesberg/flowbite"
+                                            href="https://github.com/DIWAKARKASHYAP"
                                             className="hover:underline "
                                         >
                                             Github
@@ -69,7 +69,7 @@ const ContactUs = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://discord.gg/4eeurUVvTy"
+                                            href="https://discord.gg/td67gv2T"
                                             className="hover:underline"
                                         >
                                             Discord
@@ -96,6 +96,9 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </div>
+                        <div className=" max-w-xl m-auto text-center mt-5 max text-slate-600"> 
+
+I built this entire website from scratch, all by myself </div>
                     <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
                     <div className="flex items-center justify-center">
                     
@@ -103,6 +106,7 @@ const ContactUs = () => {
                             <a
                                 href="https://www.linkedin.com/in/diwakar-kashyap-317a5223b/"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="text-gray-500  hover:text-white"
                             >
                                 <BsLinkedin className=" w-10 h-10 lg:w-14 lg:h-14" />
@@ -110,6 +114,7 @@ const ContactUs = () => {
                             <a
                                 href="mailto:didk9675@gmail.com"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
                             >
                                 <ImMail4 className=" w-10 h-10 lg:w-14 lg:h-14" />
@@ -117,6 +122,7 @@ const ContactUs = () => {
                             <a
                                 href="https://github.com/DIWAKARKASHYAP"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
                             >
                                 <BsGithub className="w-10 h-10 lg:w-14 lg:h-14" />
@@ -124,6 +130,7 @@ const ContactUs = () => {
                             <a
                                 href="https://t.me/didk9675"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
                             >
                                <BsTelegram className=" w-10 h-10 lg:w-14 lg:h-14" />
@@ -131,6 +138,7 @@ const ContactUs = () => {
                             <a
                                 href="https://twitter.com/Diwakar_766"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
                             >
                                <FaTwitterSquare className=" w-10 h-10 lg:w-14 lg:h-14" /> 
