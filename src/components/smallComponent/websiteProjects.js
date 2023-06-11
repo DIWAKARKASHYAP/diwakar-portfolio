@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import dnewsImg from "../images/dnewsImage.png";
-import immortalImg from "../images/immortalImg.png";
+import AnnonomousChat from "../images/annonomousChat.png";
 import remoteJobImg from "../images/remoteJobImg.png";
 import portfolio from "../images/portfolio.png";
 import AOS from "aos";
@@ -37,18 +37,18 @@ const WebsiteProjects = () => {
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
 
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-slate-800 rounded-md">
+                        <div className=" bg-gray-950 rounded-md">
                                 <img
                                     className="rounded-t-lg cursor-pointer"
-                                    src={immortalImg}
+                                    src={AnnonomousChat}
                                     alt="block-remote-job"
                                 />
                             
                             <div className="p-5">
-                                    <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
-                                        Immortal Chat
+                                    <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
+                                    anonymous Chat
                                     </h5>
-                                <p className="mb-3 font-normal text-gray-400">
+                                <p className="mb-3 font-normal text-gray-500">
                                     Our website is designed to provide a secure
                                     and anonymous chat platform for two
                                     individuals. You can access your chat using
@@ -58,7 +58,7 @@ const WebsiteProjects = () => {
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="https://github.com/DIWAKARKASHYAP/immortal-chat"
+                                        href="https://github.com/DIWAKARKASHYAP/AnonymousChat"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -66,7 +66,7 @@ const WebsiteProjects = () => {
                                         View Code
                                     </a>
                                     <a
-                                        href="https://immortal-chat.vercel.app/"
+                                        href="https://anonymous-chat-pi.vercel.app/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
@@ -89,7 +89,7 @@ const WebsiteProjects = () => {
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
 
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-slate-800 rounded-md">
+                        <div className=" bg-gray-950 rounded-md">
                             {" "}
                                 <img
                                     className="rounded-t-lg cursor-pointer"
@@ -98,10 +98,10 @@ const WebsiteProjects = () => {
                                 />
                             
                             <div className="p-5">
-                                    <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
+                                    <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
                                         Blockchain Remote Job
                                     </h5>
-                                <p className="mb-3 font-normal text-gray-400">
+                                <p className="mb-3 font-normal text-gray-500">
                                 Our blockchain remote job platform is built on Next.js, Tailwind CSS, MUI, and Flowbit CSS. Firebase is utilized as the reliable database, ensuring seamless functionality and data management.                   </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
@@ -136,7 +136,7 @@ const WebsiteProjects = () => {
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400  via-green-400 to-gray-800"></div>
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-slate-800 rounded-md">
+                        <div className=" bg-gray-950 rounded-md">
                             {" "}
                                 <img
                                     className="rounded-t-lg cursor-pointer"
@@ -144,10 +144,10 @@ const WebsiteProjects = () => {
                                     alt="block-remote-job"
                                 />
                             <div className="p-5">
-                                    <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
+                                    <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
                                         Dnews
                                     </h5>
-                                <p className="mb-3 font-normal text-gray-400">
+                                <p className="mb-3 font-normal text-gray-500">
                                     I created this website using Next.js and
                                     Tailwind CSS, and I sourced all the news
                                     data from newsapi.org API . As the sole
@@ -188,17 +188,17 @@ const WebsiteProjects = () => {
                     <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400  via-green-400 to-gray-800"></div>
                     <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
                     <div className=" relative  max-w-sm p-1   rounded-lg shadow   ">
-                        <div className=" bg-slate-800 rounded-md">
+                        <div className=" bg-gray-950 rounded-md">
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={portfolio}
                                     alt="block-remote-job"
                                 />
                             <div className="p-5">
-                                    <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-white cursor-pointer">
+                                    <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
                                         this portfolio
                                     </h5>
-                                <p className="mb-3 font-normal text-gray-400">
+                                <p className="mb-3 font-normal text-gray-500">
                                 This portfolio website is developed using React.js, incorporating the AOS library for smooth animations. It is styled with Tailwind CSS and MUI, resulting in a visually appealing and interactive experience for showcasing creative works and skills.
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
