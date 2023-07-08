@@ -15,13 +15,10 @@ const Section = () => {
             <div className="   max-w-2xl m-auto  relative   lg:pb-10  text-gray-400">
                 <div
                     id="text"
-                    className="  m-4 pt-10  sm:p-20 lg:p-28 text-xl backdrop-blur"
+                    className=" costomFont2  m-4 pt-10  sm:p-20 lg:p-28 text-xl backdrop-blur"
                 >
                     Hi,
-                    <br />I am a developer by heart love to learn new things
-                    starting with web development and currently learning
-                    Blockchain and Web 3.0 and try to make a world better place
-                    to live and more secure by using Blockchain
+                    <br />As a passionate developer, I thrive on acquiring new knowledge. My journey began with web development, and I am now actively engaged in open source contributions, aiding individuals and businesses. Additionally, I am dedicated to mastering advanced concepts in React, continually expanding my skill set.
                 </div>
             </div>
 
