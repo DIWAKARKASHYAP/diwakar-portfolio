@@ -39,6 +39,8 @@ const ContactUs = () => {
                                     <li className="mb-4">
                                         <a
                                             href="https://dev.to/diwakarkashyap"
+                                            target="_blank"
+                                            rel="noreferrer"
                                             className="hover:underline"
                                         >
                                             Dev.to
@@ -47,6 +49,8 @@ const ContactUs = () => {
                                     <li>
                                         <a
                                             href="https://diwakarkashyap.hashnode.dev/"
+                                            target="_blank"
+                                            rel="noreferrer"                          
                                             className="hover:underline"
                                         >
                                             HashNode
