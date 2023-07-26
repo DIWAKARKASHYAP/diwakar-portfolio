@@ -41,12 +41,12 @@ const WebsiteProjects = () => {
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={AnnonomousChat}
-                                    alt="block-remote-job"
+                                    alt="website_image"
                                 />
                             
                             <div className="p-5">
                                     <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
-                                    anonymous Chat
+                                    Anonymous Chat
                                     </h5>
                                 <p className="mb-3 font-normal text-gray-500">
                                     Our website is designed to provide a secure
@@ -94,7 +94,7 @@ const WebsiteProjects = () => {
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={remoteJobImg}
-                                    alt="block-remote-job"
+                                    alt="website_image"
                                 />
                             
                             <div className="p-5">
@@ -141,7 +141,7 @@ const WebsiteProjects = () => {
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={dnewsImg}
-                                    alt="block-remote-job"
+                                    alt="website_image"
                                 />
                             <div className="p-5">
                                     <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
@@ -192,11 +192,11 @@ const WebsiteProjects = () => {
                                 <img
                                     className="rounded-t-lg cursor-pointer"
                                     src={portfolio}
-                                    alt="block-remote-job"
+                                    alt="website_image"
                                 />
                             <div className="p-5">
                                     <h5 className="costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200 cursor-pointer">
-                                        this portfolio
+                                        This Portfolio
                                     </h5>
                                 <p className="mb-3 font-normal text-gray-500">
                                 This portfolio website is developed using React.js, incorporating the AOS library for smooth animations. It is styled with Tailwind CSS and MUI, resulting in a visually appealing and interactive experience for showcasing creative works and skills.

@@ -33,23 +33,23 @@ const ContactUs = () => {
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
-                                    Resources
+                                    Blogs
                                 </h2>
                                 <ul className="text-gray-400 font-medium">
                                     <li className="mb-4">
                                         <a
-                                            href="https://flowbite.com/"
+                                            href="https://dev.to/diwakarkashyap"
                                             className="hover:underline"
                                         >
-                                            Flowbite
+                                            Dev.to
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="https://tailwindcss.com/"
+                                            href="https://diwakarkashyap.hashnode.dev/"
                                             className="hover:underline"
                                         >
-                                            Tailwind CSS
+                                            HashNode
                                         </a>
                                     </li>
                                 </ul>
@@ -69,10 +69,10 @@ const ContactUs = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://discord.gg/td67gv2T"
+                                            href="https://twitter.com/Diwakar_766"
                                             className="hover:underline"
                                         >
-                                            Discord
+                                            Twitter
                                         </a>
                                     </li>
                                 </ul>
