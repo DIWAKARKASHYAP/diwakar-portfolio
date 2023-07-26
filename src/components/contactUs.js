@@ -62,6 +62,8 @@ const ContactUs = () => {
                                     <li className="mb-4">
                                         <a
                                             href="https://github.com/DIWAKARKASHYAP"
+                                            target="_blank"
+                                            rel="noreferrer"
                                             className="hover:underline "
                                         >
                                             Github
@@ -70,6 +72,8 @@ const ContactUs = () => {
                                     <li>
                                         <a
                                             href="https://twitter.com/Diwakar_766"
+                                            target="_blank"
+                                            rel="noreferrer"
                                             className="hover:underline"
                                         >
                                             Twitter
