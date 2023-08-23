@@ -120,7 +120,7 @@ I built this entire website from scratch, all by myself </div>
                                 <BsLinkedin className=" w-10 h-10 lg:w-14 lg:h-14" />
                             </a>
                             <a
-                                href="mailto:didk9675@gmail.com"
+                                href="mailto:diwakarkashyapdev@gmail.com"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-gray-500   hover:text-white"
