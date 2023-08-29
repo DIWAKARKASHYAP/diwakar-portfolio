@@ -8,7 +8,8 @@ const Section = () => {
                 <img
                     id="bannerImg"
                     src={banner}
-                    className="   relative -top-3 -left-4 border-t-4 border-l-2 rounded"
+                    className=" 
+                      relative -top-3 -left-4 border-t-4 border-l-2 rounded"
                 />
             </div>
             
