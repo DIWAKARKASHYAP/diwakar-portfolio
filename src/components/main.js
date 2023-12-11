@@ -17,14 +17,6 @@ import { FaHardHat, FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// import Marquee from "./smallComponent/marquee";
-
-// const skillData =[
-//     {logo : "DiHtml5", name : "HTML"} ,
-//     {logo : "DiCss3" , name : "Css"} ,
-//     {logo : "DiJavascript1" , name : "javascript"}
-// ]
-
 const Main = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 });
@@ -32,7 +24,6 @@ const Main = () => {
     return (
         <div>
             <div className=" bg-pink-500 max-w-7xl h-1 rounded-xl m-auto lg:mb-10 mb-8"></div>
-            
 
             <div>
                 <div className=" w-full overflow-hidden  content-center grid  ">
@@ -292,7 +283,6 @@ const Main = () => {
                             </div>
                         </div>
 
-                        
                         <div className=" max-w-7xl m-auto sm:flex  mt-14  ">
                             <div
                                 data-aos="fade-right"
@@ -328,20 +318,18 @@ const Main = () => {
                                     In Backend
                                 </div>
                                 <div>
-                                <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
+                                    <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
                                         <li>node.js</li>
                                         <li>express.js</li>
                                         <li>Firebase</li>
                                         <li>mongodb</li>
-                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
                         <div className=" max-w-7xl m-auto sm:flex  mt-10  ">
-                            
-                                <div
+                            <div
                                 data-aos="fade-left"
                                 className=" sm:w-1/2 sm:m-10 m-10 mt-20 p-4 flex flex-col items-center  border-solid border-sky-500 border-2 rounded-lg relative  bg-gradient-to-br from-white/5 via-sky-100/5 to-sky-300/30"
                             >
@@ -350,7 +338,7 @@ const Main = () => {
                                     In blockchain
                                 </div>
                                 <div>
-                                <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
+                                    <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
                                         <li>Ethereum</li>
                                         <li>Solidity</li>
                                         <li>Ether.js</li>
@@ -370,7 +358,7 @@ const Main = () => {
                                     some Knowledge
                                 </div>
                                 <div>
-                                <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
+                                    <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
                                         <li>Git</li>
                                         <li>Open source</li>
                                         <li>Canva</li>

@@ -6,9 +6,9 @@ import DesignProject from "./smallComponent/designProject";
 const Projects = () => {
     return (
         <div>
-        <WebsiteProjects />
-        <BlockchainProjects />
-        <DesignProject />
+            <WebsiteProjects />
+            <BlockchainProjects />
+            <DesignProject />
         </div>
     );
 };
