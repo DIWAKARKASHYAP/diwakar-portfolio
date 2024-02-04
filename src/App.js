@@ -5,6 +5,7 @@ import Section from "./components/topSection";
 import Main from "./components/main";
 import Projects from "./components/projects";
 import ContactUs from "./components/contactUs";
+import Experience from "./components/experience";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                     <Nav />
                     <Section />
                     <Main />
+                    <Experience />
                     <Projects />
                     <ContactUs />
                 </div>

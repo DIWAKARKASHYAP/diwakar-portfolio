@@ -8,7 +8,7 @@
 }
 
 .nav {
-    text-shadow: 2px 2px 0 white, 2px -2px 0 rgba(241, 126, 184, 1),
+    text-shadow: 2px 2px 0 rgb(255, 255, 255), 2px -2px 0 rgba(241, 126, 184, 1),
         -2px 2px 0 rgba(241, 126, 184, 1), -2px -2px 0 rgba(241, 126, 184, 1),
         2px 0px 0 rgba(241, 126, 184, 1), 0px 2px 0 rgba(241, 126, 184, 1),
         -2px 0px 0 rgba(241, 126, 184, 1), 0px -2px 0 rgba(241, 126, 184, 1);

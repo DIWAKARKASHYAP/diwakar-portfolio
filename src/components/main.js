@@ -294,10 +294,10 @@ const Main = () => {
                                 </div>
                                 <div>
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
-                                        <li>HTML</li>
-                                        <li>css</li>
-                                        <li>javascript</li>
+                                        <li>JavaScript</li>
+                                        <li>TypeScript</li>
                                         <li>Tailwind css</li>
+                                        <li>ShadcnUI</li>
                                         <li>React.js</li>
                                         <li>Next.js</li>
                                         <li>
@@ -321,6 +321,7 @@ const Main = () => {
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
                                         <li>node.js</li>
                                         <li>express.js</li>
+                                        <li>Supabase</li>
                                         <li>Firebase</li>
                                         <li>mongodb</li>
                                     </ul>
