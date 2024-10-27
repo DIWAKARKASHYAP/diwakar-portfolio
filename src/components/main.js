@@ -300,6 +300,7 @@ const Main = () => {
                                         <li>ShadcnUI</li>
                                         <li>React.js</li>
                                         <li>Next.js</li>
+                                        <li>Angular.js</li>
                                         <li>
                                             css components like MUI , Flowbite ,
                                             daisyUI etc
@@ -321,9 +322,12 @@ const Main = () => {
                                     <ul className="  mt-2 m-5 flex flex-col items-center justify-center text-xl font-medium text-gray-400 ">
                                         <li>node.js</li>
                                         <li>express.js</li>
+                                        <li>Python</li>
+                                        <li>FastAPI</li>
                                         <li>Supabase</li>
                                         <li>Firebase</li>
                                         <li>mongodb</li>
+                                        <li>SQL</li>
                                     </ul>
                                 </div>
                             </div>
