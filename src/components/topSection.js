@@ -24,7 +24,7 @@ const Section = () => {
                     knowledge. My journey began with web development, and I am
                     now actively engaged in open source contributions, aiding
                     individuals and businesses. Additionally, I am dedicated to
-                    mastering advanced concepts in React, continually expanding
+                    mastering advanced concepts in Coding, continually expanding
                     my skill set.
                 </div>
             </div>
