@@ -66,7 +66,7 @@ const DesignProject = () => {
                         <img
                             data-aos="zoom-in"
                             className="h-auto max-w-full border border-1 rounded-lg"
-                            src={cshare}
+                            src={bDesign}
                             alt=""
                         />
                     </div>
