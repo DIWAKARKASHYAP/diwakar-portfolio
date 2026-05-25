@@ -1,5 +1,4 @@
 import React from "react";
-import { Badge } from "flowbite-react";
 
 const NerveSparks = () => {
   return (

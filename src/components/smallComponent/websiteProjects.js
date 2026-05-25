@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 
-import dnewsImg from "../images/dnewsImage.png";
 import AnnonomousChat from "../images/annonomousChat.png";
 import remoteJobImg from "../images/remoteJobImg.png";
 import portfolio from "../images/portfolio.png";
