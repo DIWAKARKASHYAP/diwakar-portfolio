@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
 import AnnonomousChat from "../images/annonomousChat.png";
+import NSE from "../images/nse.png";
 import remoteJobImg from "../images/remoteJobImg.png";
 import portfolio from "../images/portfolio.png";
 import horsecare from "../images/horsecare.png";
@@ -44,24 +45,24 @@ const WebsiteProjects = () => {
                             {" "}
                             <img
                                 className="rounded-t-lg cursor-pointer"
-                                src={horsecare}
+                                src={NSE}
                                 alt="website_image"
                             />
                             <div className="p-5">
                                 <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
-                                    Horse Care
+                                    nse-stock-india
                                 </h5>
                                 <p className="mb-3 font-normal text-gray-500">
-                                    I developed a Horse Care Professional
-                                    marketplace using React, TypeScript, Shadcn
-                                    UI, Stripe Payment gateway, Express.js,
-                                    Auth0, and Supabase database, ensuring a
-                                    robust platform for seamless services and
-                                    transactions.
+                                    A lightweight Node.js npm package to fetch
+                                    live stock prices, full equity quotes, and
+                                    historical data from NSE India. Zero
+                                    dependencies, 1700+ downloads, and
+                                    built with cookie-based session handling.
+                                    historical data with a simple async API.
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="https://github.com/DIWAKARKASHYAP/test-assignment"
+                                        href="https://github.com/All-NSE/nse_stock"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
@@ -69,13 +70,13 @@ const WebsiteProjects = () => {
                                         View Code
                                     </a>
                                     <a
-                                        href="https://test-assignment-i5mu.vercel.app/"
+                                        href="https://www.npmjs.com/package/nse-stock-india"
                                         target="_blank"
                                         rel="noreferrer"
                                         className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
                                     >
                                         <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
-                                        Live
+                                        npm
                                     </a>
                                 </div>
                             </div>
@@ -94,25 +95,25 @@ const WebsiteProjects = () => {
                         <div className=" bg-gray-950 rounded-md">
                             <img
                                 className="rounded-t-lg cursor-pointer"
-                                src={AnnonomousChat}
+                                src={horsecare}
                                 alt="website_image"
                             />
 
                             <div className="p-5">
                                 <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
-                                    Anonymous Chat
+                                    Horse Care
                                 </h5>
                                 <p className="mb-3 font-normal text-gray-500">
-                                    Our website is designed to provide a secure
-                                    and anonymous chat platform for two
-                                    individuals. You can access your chat using
-                                    a unique chat address, which is generated
-                                    when you initiate a conversation. However,
-                                    it's import
+                                    I developed a Horse Care Professional
+                                    marketplace using React, TypeScript, Shadcn
+                                    UI, Stripe Payment gateway, Express.js,
+                                    Auth0, and Supabase database, ensuring a
+                                    robust platform for seamless services and
+                                    transactions.
                                 </p>
                                 <div className="flex justify-between mt-4 space-x-3 md:mt-6">
                                     <a
-                                        href="https://github.com/DIWAKARKASHYAP/AnonymousChat"
+                                        href="https://github.com/DIWAKARKASHYAP/test-assignment"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -120,7 +121,7 @@ const WebsiteProjects = () => {
                                         View Code
                                     </a>
                                     <a
-                                        href="https://anonymous-chat-pi.vercel.app/"
+                                        href="https://test-assignment-i5mu.vercel.app/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className=" buttonAnimation  inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
