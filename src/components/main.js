@@ -4,7 +4,6 @@ import {
     DiCss3,
     DiJavascript,
     DiReact,
-    DiNodejsSmall,
 } from "react-icons/di";
 import {
     SiNextdotjs,
